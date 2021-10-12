@@ -2,6 +2,7 @@ cmake_minimum_required (VERSION 3.0) #最低要求的CMake版本
 #project(CStart) # 项目名称
 
 SET(INCLUDE ${CMAKE_SOURCE_DIR}/include)
+set(CMAKE_UNITY_BUILD ON)
 
 #FILE(GLOB SOURCE "*.cpp")
 FILE(GLOB SOURCE "*.c")
