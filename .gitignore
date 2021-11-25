@@ -8,7 +8,7 @@
 **/.DS_Store
 **/.history
 **/*.a
-**/*.lib
+
 **/*.exe
 **/.*.swp
 **/.vscode/*
